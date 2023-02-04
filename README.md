@@ -2,7 +2,7 @@
 
 `System.out.println("Hello GitHub")`
 
-Automated test for[Demo Bookstore App](https://demoqa.com/books)
+Automated test for [Demo Bookstore App](https://demoqa.com/books)
 
 ## Written with the help of:
 - Java programming lanugage
