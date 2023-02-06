@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="20" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-06T16:09:58 CET" name="All Test Suite" finished-at="2023-02-06T16:11:16 CET" duration-ms="77177">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T16:09:58 CET" name="Chrome test" finished-at="2023-02-06T16:11:16 CET" duration-ms="77177">
+      <class name="tests.login_page.LoginPageWhenLoggedOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:02 CET" duration-ms="3238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[--start-maximized]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:02 CET" name="setupMe" finished-at="2023-02-06T16:10:09 CET" duration-ms="7548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMe -->
+        <test-method signature="loggedInUserNameNotShown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="loggedInUserNameNotShown" finished-at="2023-02-06T16:10:09 CET" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggedInUserNameNotShown -->
+        <test-method signature="logoutButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="logoutButtonNotDisplayed" finished-at="2023-02-06T16:10:09 CET" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutButtonNotDisplayed -->
+        <test-method signature="profileButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="profileButtonNotDisplayed" finished-at="2023-02-06T16:10:09 CET" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileButtonNotDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="teardown" finished-at="2023-02-06T16:10:11 CET" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.login_page.LoginPageWhenLoggedOutTest -->
+      <class name="tests.login_page.LoginPageWhenLoggedOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:02 CET" duration-ms="3250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[--start-maximized]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:02 CET" name="setupMe" finished-at="2023-02-06T16:10:07 CET" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMe -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:08 CET" name="beforeMethod" finished-at="2023-02-06T16:10:13 CET" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:13 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:16 CET" duration-ms="3173" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:16 CET" name="beforeMethod" finished-at="2023-02-06T16:10:18 CET" duration-ms="2694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:18 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:21 CET" duration-ms="2474" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:21 CET" name="beforeMethod" finished-at="2023-02-06T16:10:23 CET" duration-ms="1692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:23 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:25 CET" duration-ms="2486" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USER1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:25 CET" name="beforeMethod" finished-at="2023-02-06T16:10:27 CET" duration-ms="1525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:27 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:28 CET" duration-ms="1044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:28 CET" name="beforeMethod" finished-at="2023-02-06T16:10:28 CET" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:28 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:29 CET" duration-ms="899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:29 CET" name="beforeMethod" finished-at="2023-02-06T16:10:30 CET" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:30 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:31 CET" duration-ms="1045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:31 CET" name="beforeMethod" finished-at="2023-02-06T16:10:32 CET" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:32 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:34 CET" duration-ms="2519" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsEr1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:34 CET" name="beforeMethod" finished-at="2023-02-06T16:10:37 CET" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:37 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:38 CET" duration-ms="1013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1\n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:38 CET" name="beforeMethod" finished-at="2023-02-06T16:10:39 CET" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:39 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:40 CET" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:40 CET" name="beforeMethod" finished-at="2023-02-06T16:10:40 CET" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="noPassword()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:40 CET" name="noPassword" finished-at="2023-02-06T16:10:43 CET" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:43 CET" name="beforeMethod" finished-at="2023-02-06T16:10:45 CET" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="noUsername()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:45 CET" name="noUsername" finished-at="2023-02-06T16:10:47 CET" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noUsername -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:47 CET" name="beforeMethod" finished-at="2023-02-06T16:10:48 CET" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="noUsernameNoPassword()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:48 CET" name="noUsernameNoPassword" finished-at="2023-02-06T16:10:48 CET" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noUsernameNoPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:48 CET" name="beforeMethod" finished-at="2023-02-06T16:10:49 CET" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:49 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:10:52 CET" duration-ms="2572" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123 ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:52 CET" name="beforeMethod" finished-at="2023-02-06T16:10:53 CET" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:53 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:10:54 CET" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Password!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:54 CET" name="beforeMethod" finished-at="2023-02-06T16:10:58 CET" duration-ms="3874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:58 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:10:59 CET" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:59 CET" name="beforeMethod" finished-at="2023-02-06T16:10:59 CET" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:59 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:00 CET" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:00 CET" name="beforeMethod" finished-at="2023-02-06T16:11:01 CET" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:01 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:03 CET" duration-ms="2603" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PASSWORD!123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:03 CET" name="beforeMethod" finished-at="2023-02-06T16:11:05 CET" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:05 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:07 CET" duration-ms="2618" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pASSWORD!123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:07 CET" name="beforeMethod" finished-at="2023-02-06T16:11:09 CET" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:09 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:11 CET" duration-ms="2639" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PaSsWoRd!123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:11 CET" name="beforeMethod" finished-at="2023-02-06T16:11:12 CET" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:12 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:13 CET" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password!123Password!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:13 CET" name="beforeMethod" finished-at="2023-02-06T16:11:14 CET" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:14 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:15 CET" duration-ms="1034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123!Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:15 CET" name="teardown" finished-at="2023-02-06T16:11:16 CET" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.login_page.LoginPageWhenLoggedOutTest -->
+      <class name="tests.login_page.ValidLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:03 CET" duration-ms="4631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[--start-maximized]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:10:03 CET" name="setupMe" finished-at="2023-02-06T16:10:07 CET" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMe -->
+        <test-method signature="existingUserCanLogIn()[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:10:07 CET" name="existingUserCanLogIn" finished-at="2023-02-06T16:10:14 CET" duration-ms="6632" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#userName\-value"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6524b358fc1840aa109314664b13a92e, findElement {using=id, value=userName-value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51298/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6524b358fc1840aa109314664b13a92e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName\-value"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6524b358fc1840aa109314664b13a92e, findElement {using=id, value=userName-value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51298/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6524b358fc1840aa109314664b13a92e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+at page_objects.ProfilePage.getLoggedInUserName(ProfilePage.java:36)
+at tests.login_page.ValidLoginTest.existingUserCanLogIn(ValidLoginTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingUserCanLogIn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:10:14 CET" name="teardown" finished-at="2023-02-06T16:10:15 CET" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.login_page.ValidLoginTest -->
+      <class name="tests.login_page.LoginPageWhenLoggedInTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:02 CET" duration-ms="3238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[--start-maximized]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:02 CET" name="setupMe" finished-at="2023-02-06T16:10:17 CET" duration-ms="14939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMe -->
+        <test-method signature="logInButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="logInButtonNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInButtonNotDisplayed -->
+        <test-method signature="newUserButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="newUserButtonNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserButtonNotDisplayed -->
+        <test-method signature="passwordFieldNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="passwordFieldNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordFieldNotDisplayed -->
+        <test-method signature="usernameFieldNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="usernameFieldNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameFieldNotDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="teardown" finished-at="2023-02-06T16:10:18 CET" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.login_page.LoginPageWhenLoggedInTest -->
+    </test> <!-- Chrome test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

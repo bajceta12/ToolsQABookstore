@@ -1,6 +1,7 @@
 package page_objects;
 
 import classes.User;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,8 +12,12 @@ public class LoginPage extends BasePage<LoginPage> {
 
     private static final String URL = "https://demoqa.com/login";
 
+    private static final String invalidClass = "is-invalid";
+
+    private static final String expectedErrorMessage = "Invalid username or password!";
+
     @FindBy (id = "userName-value")
-    private WebElement loggedInUser;
+    private WebElement loggedInUserName;
 
     @FindBy (linkText = "profile")
     private WebElement profileButton;
@@ -26,8 +31,14 @@ public class LoginPage extends BasePage<LoginPage> {
     @FindBy (id = "login")
     private WebElement loginButton;
 
+    @FindBy (id = "submit")
+    private WebElement logoutButton;
+
     @FindBy (id = "newUser")
     private WebElement newUserButton;
+
+    @FindBy (id = "name")
+    private WebElement errorMessage;
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -45,7 +56,7 @@ public class LoginPage extends BasePage<LoginPage> {
     public ProfilePage loginAs(String username, String password) {
         return  typeUsername(username)
                 .typePassword(password)
-                .login();
+                .clickLoginButton();
     }
 
     public LoginPage loginAsExpectingError(String username, String password) {
@@ -70,7 +81,7 @@ public class LoginPage extends BasePage<LoginPage> {
         return this;
     }
 
-    public ProfilePage login() {
+    public ProfilePage clickLoginButton() {
         loginButton.click();
         waitForUrl(ProfilePage.getUrl());
         return new ProfilePage(driver);
@@ -81,12 +92,49 @@ public class LoginPage extends BasePage<LoginPage> {
         return this;
     }
 
+    public String getLoggedInUserName() {
+        return loggedInUserName.getText();
+    }
+
+    public ProfilePage goToProfilePage() {
+        profileButton.click();
+        waitForUrl(ProfilePage.getUrl());
+        return new ProfilePage(driver);
+    }
+
+    public String getErrorMessage() {
+        try {
+            return waitForClickable(errorMessage).getText();
+        } catch (TimeoutException e) {
+            return "Failed waiting for error msg.";
+        }
+
+    }
+
+    public String getExpectedErrorMessage() {
+        return expectedErrorMessage;
+    }
+
+    public boolean passwordIsInvalid() {
+        return waitForAttributeToContain(passwordField, "class", invalidClass);
+    }
+
+    public boolean usernameIsInvalid() {
+        return waitForAttributeToContain(userNameField, "class", invalidClass);
+    }
+
+    public LoginPage logout() {
+        logoutButton.click();
+        waitForInvisibility(loginButton);
+        return this;
+    }
+
     public static String getUrl() {
         return URL;
     }
 
     @Override
-    protected void load() {
+    public void load() {
         driver.get(URL);
     }
 

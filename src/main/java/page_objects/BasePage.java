@@ -1,8 +1,6 @@
 package page_objects;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,9 +15,10 @@ public abstract class BasePage<T extends BasePage<T>> extends LoadableComponent<
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        wdwait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wdwait = new WebDriverWait(driver, Duration.ofSeconds(2));
         js = (JavascriptExecutor) driver;
     }
+
     protected void clearAndType(WebElement field, String text) {
         field.clear();
         field.sendKeys(text);
@@ -40,5 +39,25 @@ public abstract class BasePage<T extends BasePage<T>> extends LoadableComponent<
 
     protected void waitForAttributeToBe(WebElement element, String attribute, String value) {
         wdwait.until(ExpectedConditions.attributeToBe(element, attribute, value));
+    }
+
+    protected boolean waitForAttributeToContain(WebElement elem, String attr, String val) {
+        try {
+            return wdwait.until(ExpectedConditions.attributeContains(elem, attr, val));
+        } catch (TimeoutException e) {
+            return false;
+        }
+    }
+
+    protected Alert waitForAlert() {
+        return wdwait.until(ExpectedConditions.alertIsPresent());
+    }
+
+    protected WebElement waitForVisiblity(WebElement elem) {
+        return wdwait.until(ExpectedConditions.visibilityOf(elem));
+    }
+
+    protected void waitForInvisibility(WebElement element) {
+        wdwait.until(ExpectedConditions.not(ExpectedConditions.invisibilityOf(element)));
     }
 }

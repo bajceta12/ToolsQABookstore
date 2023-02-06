@@ -39,14 +39,25 @@ public class User {
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(userID);
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+        result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
+        result = prime * result + ((password == null) ? 0 : password.hashCode());
+        result = prime * result + ((userID == null) ? 0 : userID.hashCode());
+        result = prime * result + ((username == null) ? 0 : username.hashCode());
+        return result;
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (o == this) return false;
-        if (!(o instanceof User u)) return false;
-        return Objects.equals(this.userID, u.userID);
+    public boolean equals(Object obj) {
+        if (obj == this) return true;
+        if (!(obj instanceof User u)) return false;
+        return Objects.equals(this.firstName, u.firstName) &&
+                Objects.equals(this.lastName, u.lastName) &&
+                Objects.equals(this.userID, u.userID) &&
+                Objects.equals(this.username, u.username) &&
+                Objects.equals(this.password, u.password);
     }
 
     @Override

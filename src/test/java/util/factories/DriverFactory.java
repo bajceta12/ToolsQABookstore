@@ -12,15 +12,17 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 public class DriverFactory {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-    public static void remove() {
-        driver.remove();
-    }
 
     public static WebDriver getDriver(String browser, String options) {
         if (driver.get() == null) {
             driver.set(getNewDriverInstance(browser, options));
         }
         return driver.get();
+    }
+
+    public static void quitDriver() {
+        driver.get().quit();
+        driver.remove();
     }
 
     private static WebDriver getNewDriverInstance(String browser, String options) {
