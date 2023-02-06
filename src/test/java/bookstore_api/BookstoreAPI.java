@@ -1,16 +1,12 @@
 package bookstore_api;
 
 import bookstore_api.pojo.UsernameAndPassword;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import classes.User;
-import org.openqa.selenium.chrome.ChromeDriver;
-import page_objects.ProfilePage;
-import util.factories.UserFactory;
 
 import static io.restassured.RestAssured.*;
 
@@ -38,7 +34,9 @@ public class BookstoreAPI {
 
     public static boolean authorize(User user, WebDriver driver) {
         String originalUrl = driver.getCurrentUrl();
-        driver.get("https://demoqa.com/");
+        if (!originalUrl.startsWith(baseURI)) {
+            driver.get(baseURI);
+        }
         UsernameAndPassword unpw = new UsernameAndPassword(user.getUsername(), user.getPassword());
         JsonPath jsp = given().
                             contentType(ContentType.JSON).
@@ -52,7 +50,6 @@ public class BookstoreAPI {
             driver.manage().addCookie(new Cookie("userID", user.getUserID()));
             driver.manage().addCookie(new Cookie("userName", user.getUsername()));
         } catch (Exception e) {
-            System.out.println(e);
             e.printStackTrace();
             driver.get(originalUrl);
             return false;
@@ -61,56 +58,28 @@ public class BookstoreAPI {
         return true;
     }
 
-    public static boolean deleteUser(User user, WebDriver authorizedDriver) {
-        try {
-            String token = authorizedDriver.manage().getCookieNamed("token").getValue();
-            return deleteUser(user, token);
-        } catch (Exception ignored) {
-        }
-        return false;
+    public static String getToken(User user) {
+        UsernameAndPassword unpw = new UsernameAndPassword(user.getUsername(), user.getPassword());
+        return  given().
+                    contentType(ContentType.JSON).
+                    body(unpw).
+                when().
+                    post(generateToken).jsonPath().getString("token");
     }
 
-    public static boolean deleteUser(User user, String token) {
+    public static void deleteUser(User u) {
+        deleteUser(u, getToken(u));
+    }
+
+    public static void deleteUser(User user, String token) {
         try {
             given().
                     contentType(ContentType.ANY).
                     header("Authorization", "Bearer " + token).
                     when().
-                    delete(userSrc + "/" + user.getUserID()).
-                    then().
-                    assertThat().statusCode(204);
+                    delete(userSrc + "/" + user.getUserID());
         } catch (Exception e) {
-            return false;
+            throw new IllegalStateException("Failed to delete user:\n" + user);
         }
-        return true;
-    }
-
-    public static void main(String[] args) throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        try {
-            User user = UserFactory.createNewUser();
-            System.out.println(user);
-
-            if (BookstoreAPI.authorize(user, driver)) {
-                System.out.println("Authorized, token generated and added");
-            } else {
-                System.out.println("Authorization failed");
-            }
-            Thread.sleep(2000);
-            ProfilePage pp = new ProfilePage(driver).get();
-            Thread.sleep(2000);
-            driver.navigate().refresh();
-            Thread.sleep(2000);
-            if (BookstoreAPI.deleteUser(user, driver)) {
-                System.out.println("User deleted");
-            } else {
-                System.out.println("User not deleted");
-            }
-            driver.quit();
-        } finally {
-            driver.quit();
-        }
-
     }
 }

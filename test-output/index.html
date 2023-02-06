@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Aleksandar\Programiranje\QA\ToolsQA\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 9 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.ValidLoginTest" class="method navigator-link" hash-for-method="existingUserCanLogIn">existingUserCanLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(user1 , Password!123)">invalidUsernameValidPassword(user1 , Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(USER1, Password!123)">invalidUsernameValidPassword(USER1, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(User1, Password!123)">invalidUsernameValidPassword(User1, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(UsEr1, Password!123)">invalidUsernameValidPassword(UsEr1, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, Password!123 )">validUsernameInvalidPassword(user1, Password!123 )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, pASSWORD!123)">validUsernameInvalidPassword(user1, pASSWORD!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, PaSsWoRd!123)">validUsernameInvalidPassword(user1, PaSsWoRd!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, PASSWORD!123)">validUsernameInvalidPassword(user1, PASSWORD!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(admin, Password!123)">invalidUsernameValidPassword(admin, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(user12, Password!123)">invalidUsernameValidPassword(user12, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(admin, Password!123)">invalidUsernameValidPassword(admin, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword( user1, Password!123)">invalidUsernameValidPassword( user1, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="invalidUsernameValidPassword(user1\n, Password!123)">invalidUsernameValidPassword(user1\n, Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedInTest" class="method navigator-link" hash-for-method="logInButtonNotDisplayed">logInButtonNotDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="loggedInUserNameNotShown">loggedInUserNameNotShown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="logoutButtonNotDisplayed">logoutButtonNotDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedInTest" class="method navigator-link" hash-for-method="newUserButtonNotDisplayed">newUserButtonNotDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="noPassword">noPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="noUsername">noUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="noUsernameNoPassword">noUsernameNoPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedInTest" class="method navigator-link" hash-for-method="passwordFieldNotDisplayed">passwordFieldNotDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="profileButtonNotDisplayed">profileButtonNotDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedInTest" class="method navigator-link" hash-for-method="usernameFieldNotDisplayed">usernameFieldNotDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, Password!123/)">validUsernameInvalidPassword(user1, Password!123/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, 123!Password)">validUsernameInvalidPassword(user1, 123!Password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1,  Password!123)">validUsernameInvalidPassword(user1,  Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, Password!1234)">validUsernameInvalidPassword(user1, Password!1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.login_page.LoginPageWhenLoggedOutTest" class="method navigator-link" hash-for-method="validUsernameInvalidPassword(user1, Password!123Password!123)">validUsernameInvalidPassword(user1, Password!123Password!123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.login_page.LoginPageWhenLoggedOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(user1 , Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(user1 , Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(user1 ,Password!123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(USER1, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(USER1, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(USER1,Password!123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(User1, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(User1, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(User1,Password!123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(UsEr1, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(UsEr1, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(UsEr1,Password!123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, Password!123 )">
+                  </a> <!-- validUsernameInvalidPassword(user1, Password!123 ) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,Password!123 )</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, pASSWORD!123)">
+                  </a> <!-- validUsernameInvalidPassword(user1, pASSWORD!123) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,pASSWORD!123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, PaSsWoRd!123)">
+                  </a> <!-- validUsernameInvalidPassword(user1, PaSsWoRd!123) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,PaSsWoRd!123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, PASSWORD!123)">
+                  </a> <!-- validUsernameInvalidPassword(user1, PASSWORD!123) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,PASSWORD!123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message not as expected expected [Invalid username or password!] but found [Failed waiting for error msg.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.login_page.ValidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="existingUserCanLogIn">
+                  </a> <!-- existingUserCanLogIn -->
+                  <span class="method-name">existingUserCanLogIn</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#userName\-value&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6524b358fc1840aa109314664b13a92e, findElement {using=id, value=userName-value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51298/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6524b358fc1840aa109314664b13a92e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at page_objects.ProfilePage.getLoggedInUserName(ProfilePage.java:36)
+	at tests.login_page.ValidLoginTest.existingUserCanLogIn(ValidLoginTest.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.login_page.LoginPageWhenLoggedOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(admin, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(admin, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(admin,Password!123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(user12, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(user12, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(user12,Password!123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(admin, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(admin, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(admin,Password!123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword( user1, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword( user1, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">( user1,Password!123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameValidPassword(user1\n, Password!123)">
+                  </a> <!-- invalidUsernameValidPassword(user1\n, Password!123) -->
+                  <span class="method-name">invalidUsernameValidPassword</span>
+                  <span class="parameters">(user1\n,Password!123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noPassword">
+                  </a> <!-- noPassword -->
+                  <span class="method-name">noPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noUsername">
+                  </a> <!-- noUsername -->
+                  <span class="method-name">noUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noUsernameNoPassword">
+                  </a> <!-- noUsernameNoPassword -->
+                  <span class="method-name">noUsernameNoPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, Password!123/)">
+                  </a> <!-- validUsernameInvalidPassword(user1, Password!123/) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,Password!123/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, 123!Password)">
+                  </a> <!-- validUsernameInvalidPassword(user1, 123!Password) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,123!Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1,  Password!123)">
+                  </a> <!-- validUsernameInvalidPassword(user1,  Password!123) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1, Password!123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, Password!1234)">
+                  </a> <!-- validUsernameInvalidPassword(user1, Password!1234) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,Password!1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUsernameInvalidPassword(user1, Password!123Password!123)">
+                  </a> <!-- validUsernameInvalidPassword(user1, Password!123Password!123) -->
+                  <span class="method-name">validUsernameInvalidPassword</span>
+                  <span class="parameters">(user1,Password!123Password!123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.login_page.LoginPageWhenLoggedInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInButtonNotDisplayed">
+                  </a> <!-- logInButtonNotDisplayed -->
+                  <span class="method-name">logInButtonNotDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newUserButtonNotDisplayed">
+                  </a> <!-- newUserButtonNotDisplayed -->
+                  <span class="method-name">newUserButtonNotDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordFieldNotDisplayed">
+                  </a> <!-- passwordFieldNotDisplayed -->
+                  <span class="method-name">passwordFieldNotDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameFieldNotDisplayed">
+                  </a> <!-- usernameFieldNotDisplayed -->
+                  <span class="method-name">usernameFieldNotDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.login_page.LoginPageWhenLoggedOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loggedInUserNameNotShown">
+                  </a> <!-- loggedInUserNameNotShown -->
+                  <span class="method-name">loggedInUserNameNotShown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutButtonNotDisplayed">
+                  </a> <!-- logoutButtonNotDisplayed -->
+                  <span class="method-name">logoutButtonNotDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="profileButtonNotDisplayed">
+                  </a> <!-- profileButtonNotDisplayed -->
+                  <span class="method-name">profileButtonNotDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Aleksandar\Programiranje\QA\ToolsQA\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;100&quot; parallel=&quot;classes&quot; name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;100&quot; parallel=&quot;classes&quot; name=&quot;Chrome test&quot; verbose=&quot;2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;options&quot; value=&quot;--start-maximized&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.login_page.ValidLoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.login_page.LoginPageWhenLoggedOutTest&quot;/&gt;
+      &lt;class name=&quot;tests.login_page.LoginPageWhenLoggedInTest&quot;/&gt;
+      &lt;class name=&quot;tests.login_page.LoginPageWhenLoggedOutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome test --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'existingUserCanLogIn')
+data.setCell(0, 2, 'tests.login_page.ValidLoginTest')
+data.setCell(0, 3, 6632);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'invalidUsernameValidPassword')
+data.setCell(1, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(1, 3, 3173);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validUsernameInvalidPassword')
+data.setCell(2, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(2, 3, 2639);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validUsernameInvalidPassword')
+data.setCell(3, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(3, 3, 2618);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validUsernameInvalidPassword')
+data.setCell(4, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(4, 3, 2603);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'noPassword')
+data.setCell(5, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(5, 3, 2572);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validUsernameInvalidPassword')
+data.setCell(6, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(6, 3, 2572);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'invalidUsernameValidPassword')
+data.setCell(7, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(7, 3, 2519);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invalidUsernameValidPassword')
+data.setCell(8, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(8, 3, 2486);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invalidUsernameValidPassword')
+data.setCell(9, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(9, 3, 2474);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'noUsername')
+data.setCell(10, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(10, 3, 2457);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validUsernameInvalidPassword')
+data.setCell(11, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(11, 3, 1046);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invalidUsernameValidPassword')
+data.setCell(12, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(12, 3, 1045);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'invalidUsernameValidPassword')
+data.setCell(13, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(13, 3, 1044);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validUsernameInvalidPassword')
+data.setCell(14, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(14, 3, 1034);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'invalidUsernameValidPassword')
+data.setCell(15, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(15, 3, 1013);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validUsernameInvalidPassword')
+data.setCell(16, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(16, 3, 971);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validUsernameInvalidPassword')
+data.setCell(17, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(17, 3, 940);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidUsernameValidPassword')
+data.setCell(18, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(18, 3, 938);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validUsernameInvalidPassword')
+data.setCell(19, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(19, 3, 921);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'invalidUsernameValidPassword')
+data.setCell(20, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(20, 3, 899);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'noUsernameNoPassword')
+data.setCell(21, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(21, 3, 514);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'logoutButtonNotDisplayed')
+data.setCell(22, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(22, 3, 185);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'usernameFieldNotDisplayed')
+data.setCell(23, 2, 'tests.login_page.LoginPageWhenLoggedInTest')
+data.setCell(23, 3, 159);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'newUserButtonNotDisplayed')
+data.setCell(24, 2, 'tests.login_page.LoginPageWhenLoggedInTest')
+data.setCell(24, 3, 46);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loggedInUserNameNotShown')
+data.setCell(25, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(25, 3, 35);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'profileButtonNotDisplayed')
+data.setCell(26, 2, 'tests.login_page.LoginPageWhenLoggedOutTest')
+data.setCell(26, 3, 34);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'logInButtonNotDisplayed')
+data.setCell(27, 2, 'tests.login_page.LoginPageWhenLoggedInTest')
+data.setCell(27, 3, 29);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'passwordFieldNotDisplayed')
+data.setCell(28, 2, 'tests.login_page.LoginPageWhenLoggedInTest')
+data.setCell(28, 3, 20);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome, --start-maximized)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome, --start-maximized)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome, --start-maximized)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome, --start-maximized)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupMe</span>
+                <span class="method-start">3240 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupMe</span>
+                <span class="method-start">3240 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupMe</span>
+                <span class="method-start">3250 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupMe</span>
+                <span class="method-start">4631 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">existingUserCanLogIn</span>
+                <span class="method-start">8743 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10018 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loggedInUserNameNotShown</span>
+                <span class="method-start">10789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutButtonNotDisplayed</span>
+                <span class="method-start">10828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">profileButtonNotDisplayed</span>
+                <span class="method-start">11015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">11050 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidUsernameValidPassword(user1 , Password!123)</span>
+                <span class="method-start">14134 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">15383 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">17308 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedInTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInButtonNotDisplayed</span>
+                <span class="method-start">18181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newUserButtonNotDisplayed</span>
+                <span class="method-start">18211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">passwordFieldNotDisplayed</span>
+                <span class="method-start">18258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usernameFieldNotDisplayed</span>
+                <span class="method-start">18279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">18439 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.login_page.LoginPageWhenLoggedOutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidUsernameValidPassword(User1, Password!123)</span>
+                <span class="method-start">20002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidUsernameValidPassword(USER1, Password!123)</span>
+                <span class="method-start">24169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">26656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameValidPassword( user1, Password!123)</span>
+                <span class="method-start">28181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">29226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameValidPassword(admin, Password!123)</span>
+                <span class="method-start">29746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">30645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameValidPassword(user12, Password!123)</span>
+                <span class="method-start">31214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">32260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidUsernameValidPassword(UsEr1, Password!123)</span>
+                <span class="method-start">33306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">35826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameValidPassword(user1\n, Password!123)</span>
+                <span class="method-start">38169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">39183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameValidPassword(admin, Password!123)</span>
+                <span class="method-start">40592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">41531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">noPassword</span>
+                <span class="method-start">42049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">44621 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">noUsername</span>
+                <span class="method-start">46092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">48550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">noUsernameNoPassword</span>
+                <span class="method-start">49428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">50010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validUsernameInvalidPassword(user1, Password!123 )</span>
+                <span class="method-start">50538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">53111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validUsernameInvalidPassword(user1,  Password!123)</span>
+                <span class="method-start">54385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">55432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validUsernameInvalidPassword(user1, Password!1234)</span>
+                <span class="method-start">59306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">60277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validUsernameInvalidPassword(user1, Password!123/)</span>
+                <span class="method-start">60969 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">61891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validUsernameInvalidPassword(user1, PASSWORD!123)</span>
+                <span class="method-start">62452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">65056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validUsernameInvalidPassword(user1, pASSWORD!123)</span>
+                <span class="method-start">66253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">68872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validUsernameInvalidPassword(user1, PaSsWoRd!123)</span>
+                <span class="method-start">70148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">72788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validUsernameInvalidPassword(user1, Password!123Password!123)</span>
+                <span class="method-start">73784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">74725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validUsernameInvalidPassword(user1, 123!Password)</span>
+                <span class="method-start">75262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">76296 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

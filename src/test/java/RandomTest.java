@@ -1,28 +1,20 @@
 import bookstore_api.BookstoreAPI;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page_objects.*;
 import classes.User;
+import tests.BaseTest;
 import util.factories.DriverFactory;
 import util.factories.UserFactory;
 
 
-public class RandomTest {
-    WebDriver driver;
-
-    @BeforeMethod
-    public void beforeMethod() {
-        driver = DriverFactory.getDriver("chrome", null);
-    }
-
+public class RandomTest extends BaseTest {
     @Test
-    public void navTest() throws InterruptedException {
+    public void navTest() {
         LoginPage loginPageObject = new LoginPage(driver).get();
         BookstorePage bookstorePageObject = loginPageObject.navigateTo().bookstorePage();
         ProfilePage profilePageObject = bookstorePageObject.navigateTo().profilePage();
@@ -32,35 +24,26 @@ public class RandomTest {
     }
 
     @Test
-    public void loginTest() throws InterruptedException {
-        driver.get("https://demoqa.com/login");
-        LoginPage lp = new LoginPage(driver);
+    public void loginTest() {
+        LoginPage lp = new LoginPage(driver).get();
         ProfilePage pp = lp.loginAs("user1", "Password!123");
     }
 
     @Test
     public void validUserLogin() throws InterruptedException {
-        User validUser = UserFactory.createNewUser();
+        User validUser = UserFactory.getExistingUser();
         System.out.println(validUser);
         BookstoreAPI.authorize(validUser, driver);
         LoginPage lp = new LoginPage(driver).get();
+        Thread.sleep(5000);
+        UserFactory.deleteUser(validUser);
+        driver.manage().deleteAllCookies();
         driver.navigate().refresh();
-        if (BookstoreAPI.deleteUser(validUser, driver)) {
-            System.out.println("User successfully deleted.");
-        } else {
-            System.out.println("Something went wrong.");
-        }
-    }
-
-    @Test
-    public void testtest() throws InterruptedException {
-        driver.get("https://demoqa.com/automation-practice-form");
-        driver.findElement(By.id("react-select-3-input")).sendKeys("Hello there");
+        Thread.sleep(5000);
     }
 
     @AfterMethod
     public void afterMethod() {
-        driver.quit();
-        DriverFactory.remove();
+        driver.manage().deleteAllCookies();
     }
 }

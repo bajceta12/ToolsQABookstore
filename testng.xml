@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="classes" thread-count="100">
-    <test verbose="2" preserve-order="true" name="C:/Users/Aleksandar/Programiranje/QA/ToolsQA">
+    <test verbose="2" preserve-order="true" name="Chrome test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="options" value="--start-maximized"/>
         <classes>
-            <class name="RandomTest"/>
+            <class name="tests.login_page.LoginPageWhenLoggedOutTest"/>
+            <class name="tests.login_page.LoginPageWhenLoggedInTest"/>
+            <class name="tests.profile_page.ProfilePageWhenLoggedInTest"/>
+            <class name="tests.profile_page.ProfilePageWhenLoggedOutTest"/>
         </classes>
     </test>
 </suite>
