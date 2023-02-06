@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="29" passed="20" failed="9" skipped="0">
+<testng-results ignored="0" total="47" passed="39" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-06T16:09:58 CET" name="All Test Suite" finished-at="2023-02-06T16:11:16 CET" duration-ms="77177">
+  <suite started-at="2023-02-06T21:06:16 CET" name="DemoQA Bookstore" finished-at="2023-02-06T21:07:48 CET" duration-ms="92658">
     <groups>
     </groups>
-    <test started-at="2023-02-06T16:09:58 CET" name="Chrome test" finished-at="2023-02-06T16:11:16 CET" duration-ms="77177">
+    <test started-at="2023-02-06T21:06:16 CET" name="Chrome test" finished-at="2023-02-06T21:07:48 CET" duration-ms="92658">
       <class name="tests.login_page.LoginPageWhenLoggedOutTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:02 CET" duration-ms="3238" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:16 CET" name="setup" finished-at="2023-02-06T21:06:22 CET" duration-ms="5941" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,53 +23,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:02 CET" name="setupMe" finished-at="2023-02-06T16:10:09 CET" duration-ms="7548" status="PASS">
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:22 CET" name="setupMe" finished-at="2023-02-06T21:06:30 CET" duration-ms="8947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMe -->
-        <test-method signature="loggedInUserNameNotShown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="loggedInUserNameNotShown" finished-at="2023-02-06T16:10:09 CET" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loggedInUserNameNotShown -->
-        <test-method signature="logoutButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="logoutButtonNotDisplayed" finished-at="2023-02-06T16:10:09 CET" duration-ms="185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutButtonNotDisplayed -->
-        <test-method signature="profileButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="profileButtonNotDisplayed" finished-at="2023-02-06T16:10:09 CET" duration-ms="34" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profileButtonNotDisplayed -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@31368b99]" started-at="2023-02-06T16:10:09 CET" name="teardown" finished-at="2023-02-06T16:10:11 CET" duration-ms="1374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- tests.login_page.LoginPageWhenLoggedOutTest -->
-      <class name="tests.login_page.LoginPageWhenLoggedOutTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:02 CET" duration-ms="3250" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[--start-maximized]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:02 CET" name="setupMe" finished-at="2023-02-06T16:10:07 CET" duration-ms="5491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMe -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:08 CET" name="beforeMethod" finished-at="2023-02-06T16:10:13 CET" duration-ms="4115" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:30 CET" name="beforeMethod" finished-at="2023-02-06T21:06:33 CET" duration-ms="2091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:13 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:16 CET" duration-ms="3173" status="FAIL">
+        <test-method signature="existingUserCanLogIn()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:33 CET" name="existingUserCanLogIn" finished-at="2023-02-06T21:06:37 CET" duration-ms="4788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingUserCanLogIn -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:39 CET" name="beforeMethod" finished-at="2023-02-06T21:06:41 CET" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:41 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:06:45 CET" duration-ms="3981" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -93,7 +63,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(LoginPageWhenLoggedOutTest.java:54)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -113,11 +83,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:16 CET" name="beforeMethod" finished-at="2023-02-06T16:10:18 CET" duration-ms="2694" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:45 CET" name="beforeMethod" finished-at="2023-02-06T21:06:47 CET" duration-ms="1309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:18 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:21 CET" duration-ms="2474" status="FAIL">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:47 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:06:51 CET" duration-ms="3998" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -141,7 +111,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(LoginPageWhenLoggedOutTest.java:54)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -161,11 +131,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:21 CET" name="beforeMethod" finished-at="2023-02-06T16:10:23 CET" duration-ms="1692" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:51 CET" name="beforeMethod" finished-at="2023-02-06T21:06:53 CET" duration-ms="1880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:23 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:25 CET" duration-ms="2486" status="FAIL">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:53 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:06:57 CET" duration-ms="3912" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -189,7 +159,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(LoginPageWhenLoggedOutTest.java:54)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -209,11 +179,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:25 CET" name="beforeMethod" finished-at="2023-02-06T16:10:27 CET" duration-ms="1525" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:57 CET" name="beforeMethod" finished-at="2023-02-06T21:06:59 CET" duration-ms="2520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:27 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:28 CET" duration-ms="1044" status="PASS">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:06:59 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:07:01 CET" duration-ms="1423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,11 +199,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:28 CET" name="beforeMethod" finished-at="2023-02-06T16:10:28 CET" duration-ms="520" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:01 CET" name="beforeMethod" finished-at="2023-02-06T21:07:01 CET" duration-ms="817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:28 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:29 CET" duration-ms="899" status="PASS">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:01 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:07:02 CET" duration-ms="1157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -249,11 +219,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:29 CET" name="beforeMethod" finished-at="2023-02-06T16:10:30 CET" duration-ms="569" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:02 CET" name="beforeMethod" finished-at="2023-02-06T21:07:05 CET" duration-ms="2333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:30 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:31 CET" duration-ms="1045" status="PASS">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:05 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:07:06 CET" duration-ms="1311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -269,11 +239,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:31 CET" name="beforeMethod" finished-at="2023-02-06T16:10:32 CET" duration-ms="1046" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:06 CET" name="beforeMethod" finished-at="2023-02-06T21:07:07 CET" duration-ms="1046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:32 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:34 CET" duration-ms="2519" status="FAIL">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:07 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:07:10 CET" duration-ms="2777" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -297,7 +267,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(InvalidLoginTest.java:86)
+at tests.login_page.LoginPageWhenLoggedOutTest.invalidUsernameValidPassword(LoginPageWhenLoggedOutTest.java:54)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -317,11 +287,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:34 CET" name="beforeMethod" finished-at="2023-02-06T16:10:37 CET" duration-ms="2343" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:10 CET" name="beforeMethod" finished-at="2023-02-06T21:07:11 CET" duration-ms="763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:37 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:38 CET" duration-ms="1013" status="PASS">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:11 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:07:12 CET" duration-ms="1192" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -337,11 +307,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:38 CET" name="beforeMethod" finished-at="2023-02-06T16:10:39 CET" duration-ms="1409" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:12 CET" name="beforeMethod" finished-at="2023-02-06T21:07:13 CET" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:39 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T16:10:40 CET" duration-ms="938" status="PASS">
+        <test-method signature="invalidUsernameValidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:13 CET" name="invalidUsernameValidPassword" data-provider="invalid usernames and valid passwords" finished-at="2023-02-06T21:07:14 CET" duration-ms="1207" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,35 +327,230 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:40 CET" name="beforeMethod" finished-at="2023-02-06T16:10:40 CET" duration-ms="518" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:14 CET" name="beforeMethod" finished-at="2023-02-06T21:07:15 CET" duration-ms="814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="noPassword()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:40 CET" name="noPassword" finished-at="2023-02-06T16:10:43 CET" duration-ms="2572" status="PASS">
+        <test-method signature="loggedInUserNameNotShown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:15 CET" name="loggedInUserNameNotShown" finished-at="2023-02-06T21:07:15 CET" duration-ms="14" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#userName\-value"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [672c6d06604ead49bbda2aaea29f269a, findElement {using=id, value=userName-value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 672c6d06604ead49bbda2aaea29f269a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName\-value"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [672c6d06604ead49bbda2aaea29f269a, findElement {using=id, value=userName-value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 672c6d06604ead49bbda2aaea29f269a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+at page_objects.LoginPage.getLoggedInUserName(LoginPage.java:96)
+at tests.login_page.LoginPageWhenLoggedOutTest.loggedInUserNameNotShown(LoginPageWhenLoggedOutTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggedInUserNameNotShown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:15 CET" name="beforeMethod" finished-at="2023-02-06T21:07:15 CET" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logoutButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:15 CET" name="logoutButtonNotDisplayed" finished-at="2023-02-06T21:07:15 CET" duration-ms="10" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#submit"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [672c6d06604ead49bbda2aaea29f269a, findElement {using=id, value=submit}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 672c6d06604ead49bbda2aaea29f269a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#submit"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [672c6d06604ead49bbda2aaea29f269a, findElement {using=id, value=submit}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 672c6d06604ead49bbda2aaea29f269a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at page_objects.LoginPage.logout(LoginPage.java:127)
+at tests.login_page.LoginPageWhenLoggedOutTest.logoutButtonNotDisplayed(LoginPageWhenLoggedOutTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:15 CET" name="beforeMethod" finished-at="2023-02-06T21:07:16 CET" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="noPassword()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:16 CET" name="noPassword" finished-at="2023-02-06T21:07:19 CET" duration-ms="2651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:43 CET" name="beforeMethod" finished-at="2023-02-06T16:10:45 CET" duration-ms="1471" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:19 CET" name="beforeMethod" finished-at="2023-02-06T21:07:19 CET" duration-ms="723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="noUsername()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:45 CET" name="noUsername" finished-at="2023-02-06T16:10:47 CET" duration-ms="2457" status="PASS">
+        <test-method signature="noUsername()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:19 CET" name="noUsername" finished-at="2023-02-06T21:07:22 CET" duration-ms="2653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noUsername -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:47 CET" name="beforeMethod" finished-at="2023-02-06T16:10:48 CET" duration-ms="878" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:22 CET" name="beforeMethod" finished-at="2023-02-06T21:07:23 CET" duration-ms="907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="noUsernameNoPassword()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:48 CET" name="noUsernameNoPassword" finished-at="2023-02-06T16:10:48 CET" duration-ms="514" status="PASS">
+        <test-method signature="noUsernameNoPassword()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:23 CET" name="noUsernameNoPassword" finished-at="2023-02-06T21:07:23 CET" duration-ms="547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noUsernameNoPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:48 CET" name="beforeMethod" finished-at="2023-02-06T16:10:49 CET" duration-ms="528" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:23 CET" name="beforeMethod" finished-at="2023-02-06T21:07:24 CET" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:49 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:10:52 CET" duration-ms="2572" status="FAIL">
+        <test-method signature="profileButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:24 CET" name="profileButtonNotDisplayed" finished-at="2023-02-06T21:07:24 CET" duration-ms="14" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"profile"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [672c6d06604ead49bbda2aaea29f269a, findElement {using=link text, value=profile}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 672c6d06604ead49bbda2aaea29f269a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"profile"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [672c6d06604ead49bbda2aaea29f269a, findElement {using=link text, value=profile}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51217/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 672c6d06604ead49bbda2aaea29f269a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at page_objects.LoginPage.goToProfilePage(LoginPage.java:100)
+at tests.login_page.LoginPageWhenLoggedOutTest.profileButtonNotDisplayed(LoginPageWhenLoggedOutTest.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:24 CET" name="beforeMethod" finished-at="2023-02-06T21:07:25 CET" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:25 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:27 CET" duration-ms="2638" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -409,7 +574,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(LoginPageWhenLoggedOutTest.java:60)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -429,11 +594,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:52 CET" name="beforeMethod" finished-at="2023-02-06T16:10:53 CET" duration-ms="1274" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:27 CET" name="beforeMethod" finished-at="2023-02-06T21:07:28 CET" duration-ms="831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:53 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:10:54 CET" duration-ms="1046" status="PASS">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:28 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:29 CET" duration-ms="1171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -449,11 +614,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:54 CET" name="beforeMethod" finished-at="2023-02-06T16:10:58 CET" duration-ms="3874" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:29 CET" name="beforeMethod" finished-at="2023-02-06T21:07:30 CET" duration-ms="761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:58 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:10:59 CET" duration-ms="971" status="PASS">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:30 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:31 CET" duration-ms="1028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,11 +634,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:59 CET" name="beforeMethod" finished-at="2023-02-06T16:10:59 CET" duration-ms="691" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:31 CET" name="beforeMethod" finished-at="2023-02-06T21:07:32 CET" duration-ms="729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:10:59 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:00 CET" duration-ms="921" status="PASS">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:32 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:33 CET" duration-ms="1081" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -489,11 +654,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:00 CET" name="beforeMethod" finished-at="2023-02-06T16:11:01 CET" duration-ms="561" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:33 CET" name="beforeMethod" finished-at="2023-02-06T21:07:34 CET" duration-ms="588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:01 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:03 CET" duration-ms="2603" status="FAIL">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:34 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:36 CET" duration-ms="2582" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -517,7 +682,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(LoginPageWhenLoggedOutTest.java:60)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -537,11 +702,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:03 CET" name="beforeMethod" finished-at="2023-02-06T16:11:05 CET" duration-ms="1197" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:36 CET" name="beforeMethod" finished-at="2023-02-06T21:07:37 CET" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:05 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:07 CET" duration-ms="2618" status="FAIL">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:37 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:40 CET" duration-ms="2638" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -565,7 +730,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(LoginPageWhenLoggedOutTest.java:60)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -585,11 +750,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:07 CET" name="beforeMethod" finished-at="2023-02-06T16:11:09 CET" duration-ms="1276" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:40 CET" name="beforeMethod" finished-at="2023-02-06T21:07:41 CET" duration-ms="889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:09 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:11 CET" duration-ms="2639" status="FAIL">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:41 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:43 CET" duration-ms="2580" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -613,7 +778,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
-at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(InvalidLoginTest.java:93)
+at tests.login_page.LoginPageWhenLoggedOutTest.validUsernameInvalidPassword(LoginPageWhenLoggedOutTest.java:60)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -633,11 +798,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:11 CET" name="beforeMethod" finished-at="2023-02-06T16:11:12 CET" duration-ms="996" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:43 CET" name="beforeMethod" finished-at="2023-02-06T21:07:44 CET" duration-ms="1061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:12 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:13 CET" duration-ms="940" status="PASS">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:44 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:46 CET" duration-ms="1284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -653,11 +818,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:13 CET" name="beforeMethod" finished-at="2023-02-06T16:11:14 CET" duration-ms="536" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:46 CET" name="beforeMethod" finished-at="2023-02-06T21:07:46 CET" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:14 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T16:11:15 CET" duration-ms="1034" status="PASS">
+        <test-method signature="validUsernameInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:46 CET" name="validUsernameInvalidPassword" data-provider="valid usernames and invalid passwords" finished-at="2023-02-06T21:07:47 CET" duration-ms="1205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -673,13 +838,13 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4ac3c60d]" started-at="2023-02-06T16:11:15 CET" name="teardown" finished-at="2023-02-06T16:11:16 CET" duration-ms="842" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedOutTest@4f209819]" started-at="2023-02-06T21:07:47 CET" name="teardown" finished-at="2023-02-06T21:07:48 CET" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.login_page.LoginPageWhenLoggedOutTest -->
-      <class name="tests.login_page.ValidLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:03 CET" duration-ms="4631" status="PASS">
+      <class name="tests.profile_page.ProfilePageWhenLoggedInTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:16 CET" name="setup" finished-at="2023-02-06T21:06:20 CET" duration-ms="4875" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -695,33 +860,45 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:10:03 CET" name="setupMe" finished-at="2023-02-06T16:10:07 CET" duration-ms="4073" status="PASS">
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:20 CET" name="setupMe" finished-at="2023-02-06T21:06:33 CET" duration-ms="12282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMe -->
-        <test-method signature="existingUserCanLogIn()[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:10:07 CET" name="existingUserCanLogIn" finished-at="2023-02-06T16:10:14 CET" duration-ms="6632" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:33 CET" name="beforeMethod" finished-at="2023-02-06T21:06:41 CET" duration-ms="7837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="goToBookstorePage()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:41 CET" name="goToBookstorePage" finished-at="2023-02-06T21:06:43 CET" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBookstorePage -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:43 CET" name="beforeMethod" finished-at="2023-02-06T21:06:47 CET" duration-ms="4465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:47 CET" name="loginButtonNotDisplayed" finished-at="2023-02-06T21:06:47 CET" duration-ms="53" status="PASS">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#userName\-value"}
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"login"}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6524b358fc1840aa109314664b13a92e, findElement {using=id, value=userName-value}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51298/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6524b358fc1840aa109314664b13a92e]]>
+Command: [f397d7726f32ace31894be047d307a6c, findElement {using=link text, value=login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51183/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f397d7726f32ace31894be047d307a6c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName\-value"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"login"}
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.0', revision: '267030adea'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6524b358fc1840aa109314664b13a92e, findElement {using=id, value=userName-value}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51298}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51298/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6524b358fc1840aa109314664b13a92e
+Command: [f397d7726f32ace31894be047d307a6c, findElement {using=link text, value=login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51183/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f397d7726f32ace31894be047d307a6c
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -738,9 +915,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
-at page_objects.ProfilePage.getLoggedInUserName(ProfilePage.java:36)
-at tests.login_page.ValidLoginTest.existingUserCanLogIn(ValidLoginTest.java:26)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at page_objects.ProfilePage.goToLoginPage(ProfilePage.java:71)
+at tests.profile_page.ProfilePageWhenLoggedInTest.loginButtonNotDisplayed(ProfilePageWhenLoggedInTest.java:58)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -759,14 +936,95 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- existingUserCanLogIn -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.ValidLoginTest@1139b2f3]" started-at="2023-02-06T16:10:14 CET" name="teardown" finished-at="2023-02-06T16:10:15 CET" duration-ms="1011" status="PASS">
+        </test-method> <!-- loginButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:47 CET" name="beforeMethod" finished-at="2023-02-06T21:06:50 CET" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logout()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:50 CET" name="logout" finished-at="2023-02-06T21:06:51 CET" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:51 CET" name="beforeMethod" finished-at="2023-02-06T21:06:54 CET" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newUserShouldHaveZeroBooks()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:54 CET" name="newUserShouldHaveZeroBooks" finished-at="2023-02-06T21:06:54 CET" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserShouldHaveZeroBooks -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:06:54 CET" name="beforeMethod" finished-at="2023-02-06T21:07:00 CET" duration-ms="5458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="registerButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:07:00 CET" name="registerButtonNotDisplayed" finished-at="2023-02-06T21:07:00 CET" duration-ms="60" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"register"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f397d7726f32ace31894be047d307a6c, findElement {using=link text, value=register}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51183/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f397d7726f32ace31894be047d307a6c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"register"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f397d7726f32ace31894be047d307a6c, findElement {using=link text, value=register}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51183/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f397d7726f32ace31894be047d307a6c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at page_objects.ProfilePage.goToRegistrationPage(ProfilePage.java:77)
+at tests.profile_page.ProfilePageWhenLoggedInTest.registerButtonNotDisplayed(ProfilePageWhenLoggedInTest.java:64)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerButtonNotDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedInTest@3d51f06e]" started-at="2023-02-06T21:07:00 CET" name="teardown" finished-at="2023-02-06T21:07:01 CET" duration-ms="1199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.login_page.ValidLoginTest -->
+      </class> <!-- tests.profile_page.ProfilePageWhenLoggedInTest -->
       <class name="tests.login_page.LoginPageWhenLoggedInTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:09:58 CET" name="setup" finished-at="2023-02-06T16:10:02 CET" duration-ms="3238" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:16 CET" name="setup" finished-at="2023-02-06T21:06:21 CET" duration-ms="5070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -782,31 +1040,847 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:02 CET" name="setupMe" finished-at="2023-02-06T16:10:17 CET" duration-ms="14939" status="PASS">
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:21 CET" name="setupMe" finished-at="2023-02-06T21:06:34 CET" duration-ms="13095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMe -->
-        <test-method signature="logInButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="logInButtonNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:34 CET" name="beforeMethod" finished-at="2023-02-06T21:06:44 CET" duration-ms="9815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="goToProfilePage()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:44 CET" name="goToProfilePage" finished-at="2023-02-06T21:06:47 CET" duration-ms="3121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToProfilePage -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:47 CET" name="beforeMethod" finished-at="2023-02-06T21:06:50 CET" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logInButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:50 CET" name="logInButtonNotDisplayed" finished-at="2023-02-06T21:06:50 CET" duration-ms="21" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at page_objects.LoginPage.clickLoginButton(LoginPage.java:85)
+at tests.login_page.LoginPageWhenLoggedInTest.logInButtonNotDisplayed(LoginPageWhenLoggedInTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInButtonNotDisplayed -->
-        <test-method signature="newUserButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="newUserButtonNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:50 CET" name="beforeMethod" finished-at="2023-02-06T21:06:54 CET" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logout()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:54 CET" name="logout" finished-at="2023-02-06T21:06:57 CET" duration-ms="2901" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#submit"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=submit}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#submit"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=submit}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at page_objects.LoginPage.logout(LoginPage.java:127)
+at tests.login_page.LoginPageWhenLoggedInTest.logout(LoginPageWhenLoggedInTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:06:57 CET" name="beforeMethod" finished-at="2023-02-06T21:07:00 CET" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newUserButtonNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:07:00 CET" name="newUserButtonNotDisplayed" finished-at="2023-02-06T21:07:00 CET" duration-ms="14" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#newUser"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=newUser}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#newUser"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=newUser}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at page_objects.LoginPage.goToRegistrationPage(LoginPage.java:69)
+at tests.login_page.LoginPageWhenLoggedInTest.newUserButtonNotDisplayed(LoginPageWhenLoggedInTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newUserButtonNotDisplayed -->
-        <test-method signature="passwordFieldNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="passwordFieldNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:07:00 CET" name="beforeMethod" finished-at="2023-02-06T21:07:06 CET" duration-ms="6010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="passwordFieldNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:07:06 CET" name="passwordFieldNotDisplayed" finished-at="2023-02-06T21:07:06 CET" duration-ms="21" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+at page_objects.BasePage.clearAndType(BasePage.java:23)
+at page_objects.LoginPage.typePassword(LoginPage.java:80)
+at tests.login_page.LoginPageWhenLoggedInTest.passwordFieldNotDisplayed(LoginPageWhenLoggedInTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passwordFieldNotDisplayed -->
-        <test-method signature="usernameFieldNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="usernameFieldNotDisplayed" finished-at="2023-02-06T16:10:17 CET" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:07:06 CET" name="beforeMethod" finished-at="2023-02-06T21:07:09 CET" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="usernameFieldNotDisplayed()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:07:09 CET" name="usernameFieldNotDisplayed" finished-at="2023-02-06T21:07:09 CET" duration-ms="11" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=userName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93aa1f5c600785ae6937d695dace3b2b, findElement {using=id, value=userName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51199/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 93aa1f5c600785ae6937d695dace3b2b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+at page_objects.BasePage.clearAndType(BasePage.java:23)
+at page_objects.LoginPage.typeUsername(LoginPage.java:75)
+at tests.login_page.LoginPageWhenLoggedInTest.usernameFieldNotDisplayed(LoginPageWhenLoggedInTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usernameFieldNotDisplayed -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@3911c2a7]" started-at="2023-02-06T16:10:17 CET" name="teardown" finished-at="2023-02-06T16:10:18 CET" duration-ms="1167" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.login_page.LoginPageWhenLoggedInTest@481a996b]" started-at="2023-02-06T21:07:09 CET" name="teardown" finished-at="2023-02-06T21:07:09 CET" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.login_page.LoginPageWhenLoggedInTest -->
+      <class name="tests.profile_page.ProfilePageWhenLoggedOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:16 CET" name="setup" finished-at="2023-02-06T21:06:20 CET" duration-ms="4870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[--start-maximized]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMe()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:20 CET" name="setupMe" finished-at="2023-02-06T21:06:30 CET" duration-ms="9902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMe -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:30 CET" name="beforeMethod" finished-at="2023-02-06T21:06:33 CET" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteAccountButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:33 CET" name="deleteAccountButtonNotDisplayed" finished-at="2023-02-06T21:06:33 CET" duration-ms="35" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[No button[Delete Account] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: No button[Delete Account] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown
+at page_objects.ProfilePage.getButton(ProfilePage.java:177)
+at page_objects.ProfilePage.getDeleteAccountButton(ProfilePage.java:159)
+at page_objects.ProfilePage.deleteAccount(ProfilePage.java:170)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.deleteAccountButtonNotDisplayed(ProfilePageWhenLoggedOutTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccountButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:33 CET" name="beforeMethod" finished-at="2023-02-06T21:06:34 CET" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteAllBooksButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:34 CET" name="deleteAllBooksButtonNotDisplayed" finished-at="2023-02-06T21:06:34 CET" duration-ms="61" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[No button[Delete All Books] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: No button[Delete All Books] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown
+at page_objects.ProfilePage.getButton(ProfilePage.java:177)
+at page_objects.ProfilePage.getDeleteAllBooksButton(ProfilePage.java:162)
+at page_objects.ProfilePage.deleteAllBooks(ProfilePage.java:166)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.deleteAllBooksButtonNotDisplayed(ProfilePageWhenLoggedOutTest.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllBooksButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:34 CET" name="beforeMethod" finished-at="2023-02-06T21:06:38 CET" duration-ms="4630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="goToBookstoreButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:38 CET" name="goToBookstoreButtonNotDisplayed" finished-at="2023-02-06T21:06:38 CET" duration-ms="13" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[No button[Go To Book Store] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: No button[Go To Book Store] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown
+at page_objects.ProfilePage.getButton(ProfilePage.java:177)
+at page_objects.ProfilePage.getGoToBookstoreButton(ProfilePage.java:155)
+at page_objects.ProfilePage.goToBookstore(ProfilePage.java:83)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.goToBookstoreButtonNotDisplayed(ProfilePageWhenLoggedOutTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBookstoreButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:38 CET" name="beforeMethod" finished-at="2023-02-06T21:06:41 CET" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="goToLoginPageTest()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:41 CET" name="goToLoginPageTest" finished-at="2023-02-06T21:06:43 CET" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPageTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:43 CET" name="beforeMethod" finished-at="2023-02-06T21:06:45 CET" duration-ms="2570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="goToRegistrationPage()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:45 CET" name="goToRegistrationPage" finished-at="2023-02-06T21:06:47 CET" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegistrationPage -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:47 CET" name="beforeMethod" finished-at="2023-02-06T21:06:48 CET" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loggedInUserNameNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:48 CET" name="loggedInUserNameNotDisplayed" finished-at="2023-02-06T21:06:50 CET" duration-ms="2105" status="PASS">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: userName-value' (tried for 2 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: userName-value' (tried for 2 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at page_objects.BasePage.waitForClickable(BasePage.java:33)
+at page_objects.ProfilePage.getLoggedInUserName(ProfilePage.java:67)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.loggedInUserNameNotDisplayed(ProfilePageWhenLoggedOutTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName\-value"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d7454b27e1e741b37433ad46e70b75, findElement {using=id, value=userName-value}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51181/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d7454b27e1e741b37433ad46e70b75
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 16 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggedInUserNameNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:50 CET" name="beforeMethod" finished-at="2023-02-06T21:06:52 CET" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logoutButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:52 CET" name="logoutButtonNotDisplayed" finished-at="2023-02-06T21:06:52 CET" duration-ms="19" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[No button[Log out] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: No button[Log out] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown
+at page_objects.ProfilePage.getButton(ProfilePage.java:177)
+at page_objects.ProfilePage.getLogouButton(ProfilePage.java:151)
+at page_objects.ProfilePage.logout(ProfilePage.java:145)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.logoutButtonNotDisplayed(ProfilePageWhenLoggedOutTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:52 CET" name="beforeMethod" finished-at="2023-02-06T21:06:53 CET" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="nextButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:53 CET" name="nextButtonNotDisplayed" finished-at="2023-02-06T21:06:53 CET" duration-ms="206" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[No button[Next] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: No button[Next] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown
+at page_objects.ProfilePage.getButton(ProfilePage.java:177)
+at page_objects.ProfilePage.getNextPageButton(ProfilePage.java:93)
+at page_objects.ProfilePage.hasNextPage(ProfilePage.java:137)
+at page_objects.ProfilePage.goToNexPage(ProfilePage.java:125)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.nextButtonNotDisplayed(ProfilePageWhenLoggedOutTest.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:53 CET" name="beforeMethod" finished-at="2023-02-06T21:06:55 CET" duration-ms="1843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="previousButtonNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:55 CET" name="previousButtonNotDisplayed" finished-at="2023-02-06T21:06:55 CET" duration-ms="25" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[No button[Previous] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: No button[Previous] found.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: unknown
+at page_objects.ProfilePage.getButton(ProfilePage.java:177)
+at page_objects.ProfilePage.getPrevPageButton(ProfilePage.java:89)
+at page_objects.ProfilePage.hasPreviousPage(ProfilePage.java:133)
+at page_objects.ProfilePage.goToPreviousPage(ProfilePage.java:117)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.previousButtonNotDisplayed(ProfilePageWhenLoggedOutTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previousButtonNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:55 CET" name="beforeMethod" finished-at="2023-02-06T21:06:56 CET" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchBoxNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:56 CET" name="searchBoxNotDisplayed" finished-at="2023-02-06T21:06:56 CET" duration-ms="17" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#searchBox"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d7454b27e1e741b37433ad46e70b75, findElement {using=id, value=searchBox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51181/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d7454b27e1e741b37433ad46e70b75]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#searchBox"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d7454b27e1e741b37433ad46e70b75, findElement {using=id, value=searchBox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51181/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d7454b27e1e741b37433ad46e70b75
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+at page_objects.BasePage.clearAndType(BasePage.java:23)
+at page_objects.ProfilePage.searchFor(ProfilePage.java:97)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.searchBoxNotDisplayed(ProfilePageWhenLoggedOutTest.java:92)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxNotDisplayed -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:56 CET" name="beforeMethod" finished-at="2023-02-06T21:06:58 CET" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="settingBooksPerPageNotDisplayed()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:58 CET" name="settingBooksPerPageNotDisplayed" finished-at="2023-02-06T21:06:58 CET" duration-ms="21" status="PASS">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[aria-label='rows per page'"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d7454b27e1e741b37433ad46e70b75, findElement {using=css selector, value=[aria-label='rows per page'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51181/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d7454b27e1e741b37433ad46e70b75]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[aria-label='rows per page'"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d7454b27e1e741b37433ad46e70b75, findElement {using=css selector, value=[aria-label='rows per page'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51181}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51181/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d7454b27e1e741b37433ad46e70b75
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+at page_objects.ProfilePage.setBooksPerPage(ProfilePage.java:103)
+at tests.profile_page.ProfilePageWhenLoggedOutTest.settingBooksPerPageNotDisplayed(ProfilePageWhenLoggedOutTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingBooksPerPageNotDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.profile_page.ProfilePageWhenLoggedOutTest@7ed7259e]" started-at="2023-02-06T21:06:58 CET" name="teardown" finished-at="2023-02-06T21:06:58 CET" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.profile_page.ProfilePageWhenLoggedOutTest -->
     </test> <!-- Chrome test -->
-  </suite> <!-- All Test Suite -->
+  </suite> <!-- DemoQA Bookstore -->
 </testng-results>
