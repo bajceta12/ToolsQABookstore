@@ -1,12 +1,20 @@
 package bookstore_api;
 
+import bookstore_api.pojo.Book;
 import bookstore_api.pojo.UsernameAndPassword;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import classes.User;
+import org.openqa.selenium.chrome.ChromeDriver;
+import page_objects.LoginPage;
+import page_objects.ProfilePage;
+import util.factories.UserFactory;
+
+import java.util.*;
 
 import static io.restassured.RestAssured.*;
 
@@ -72,14 +80,74 @@ public class BookstoreAPI {
     }
 
     public static void deleteUser(User user, String token) {
-        try {
-            given().
-                    contentType(ContentType.ANY).
-                    header("Authorization", "Bearer " + token).
-                    when().
-                    delete(userSrc + "/" + user.getUserID());
-        } catch (Exception e) {
-            throw new IllegalStateException("Failed to delete user:\n" + user);
+        given().
+                contentType(ContentType.ANY).
+                header("Authorization", "Bearer " + token).
+        when().
+                delete(userSrc + "/" + user.getUserID());
+    }
+
+    private static void deleteAllBooks(User u, String token) {
+        given().
+                contentType(ContentType.JSON).
+                header("Authorization", "Bearer " + token).
+                param("UserId", u.getUserID()).
+        when().
+                delete(bookSrc);
+    }
+
+    public static void deleteAllBooks(User u) {
+        deleteAllBooks(u, getToken(u));
+    }
+
+    public static List<Book> getAllBooks() {
+        List<LinkedHashMap<Object, Object>> lhm =
+                given().
+                        contentType(ContentType.JSON).
+                when().
+                        get(booksSrc).
+                then().
+                        extract().body().jsonPath().getList("books");
+        ArrayList<Book> books = new ArrayList<>();
+        for (HashMap<Object, Object> hm : lhm) {
+            books.add(hashMapToBook(hm));
         }
+        return books;
+    }
+
+    private static Book hashMapToBook(HashMap<Object, Object> hm) {
+        return new Book(
+                (String) hm.get("isbn"),
+                (String) hm.get("title"),
+                (String) hm.get("subTitle"),
+                (String) hm.get("author"),
+                (String) hm.get("publish_date"),
+                (String) hm.get("publisher"),
+                (Integer) hm.get("pages"),
+                (String) hm.get("description"),
+                (String) hm.get("website")
+        );
+    }
+
+    public static Book getSingleBook(String isbn) {
+        return  given().
+                        contentType(ContentType.JSON).
+                        param("ISBN", isbn).
+                when().
+                        get(bookSrc).
+                then().
+                        extract().body().jsonPath().getObject("", Book.class);
+
+    }
+
+    public static Book getSingleBook(Book b) {
+        return getSingleBook(b.getIsbn());
+    }
+
+    public static void main(String[] args) {
+        List<Book> books = getAllBooks();
+        System.out.println(books);
+        Book singleBook = books.get(0);
+        System.out.println(getSingleBook(singleBook));
     }
 }
